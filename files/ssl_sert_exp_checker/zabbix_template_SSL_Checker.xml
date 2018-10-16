@@ -1,0 +1,3525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>3.0</version>
+    <date>2018-10-16T09:49:41Z</date>
+    <groups>
+        <group>
+            <name>Sites</name>
+        </group>
+        <group>
+            <name>Templates</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>ssl_cert_exp_monitor</template>
+            <name>Custom Template SSL cert expiration date check</name>
+            <description>Check SSL certificate expiration via external script ssl_cert_exp_monitor.sh</description>
+            <groups>
+                <group>
+                    <name>Sites</name>
+                </group>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <applications>
+                <application>
+                    <name>SSL Cert Check</name>
+                </application>
+                <application>
+                    <name>Web Checks</name>
+                </application>
+            </applications>
+            <items>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_01}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_01}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_02}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_02}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_03}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_03}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_04}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_04}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_05}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_05}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_06}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_06}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_07}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_07}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_08}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_08}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_09}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_09}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>1</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_10}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_10}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_11}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_11}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_12}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_12}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_13}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_13}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_14}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_14}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_15}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_15}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_16}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_16}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_17}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_17}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_18}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_18}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_19}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_19}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_20}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_20}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_21}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_21}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_22}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_22}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_23}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_23}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_24}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_24}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_25}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_25}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_26}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_26}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_27}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_27}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_28}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_28}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_29}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_29}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_30}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_30}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_31}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_31}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_32}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_32}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_33}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_33}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_34}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_34}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_35}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_35}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_36}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_36}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_37}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_37}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_38}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_38}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_39}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_39}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>SSL Cert Check - {$HOST_TO_SSL_CHECK_40}</name>
+                    <type>10</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_40}&quot;]</key>
+                    <delay>86400</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>Days</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description/>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>SSL Cert Check</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+            </items>
+            <discovery_rules/>
+            <macros>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_01}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_02}</macro>
+                    <value>example02com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_03}</macro>
+                    <value>example03.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_04}</macro>
+                    <value>example04.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_05}</macro>
+                    <value>example05.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_06}</macro>
+                    <value>example06.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_07}</macro>
+                    <value>example07.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_08}</macro>
+                    <value>example08.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_09}</macro>
+                    <value>example09.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_10}</macro>
+                    <value>exampe10.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_11}</macro>
+                    <value>example11.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_12}</macro>
+                    <value>example12.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_13}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_14}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_15}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_16}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_17}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_18}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_19}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_20}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_21}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_22}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_23}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_24}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_25}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_26}</macro>
+                    <value>example01.ru</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_27}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_28}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_29}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_30}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_31}</macro>
+                    <value>example01.ru</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_32}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_33}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_34}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_35}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_36}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_37}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_38}</macro>
+                    <value>example01.ru</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_39}</macro>
+                    <value>example01.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HOST_TO_SSL_CHECK_40}</macro>
+                    <value>example01.com</value>
+                </macro>
+            </macros>
+            <templates/>
+            <screens/>
+        </template>
+    </templates>
+    <triggers>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_01}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_01}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_01}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_02}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_02}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_02}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_03}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_03}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_03}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_04}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_04}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_04}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_05}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_05}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_05}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_06}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_06}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_06}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_07}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_07}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_07}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_08}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_08}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_08}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_09}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_09}</name>
+            <url/>
+            <status>1</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_09}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_10}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_10}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_10}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_11}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_11}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_11}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_12}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_12}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_12}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_13}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_13}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_13}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_14}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_14}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_14}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_15}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_15}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_15}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_16}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_16}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_16}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_17}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_17}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_17}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_18}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_18}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_18}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_19}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_19}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_19}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_20}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_20}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_20}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_21}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_21}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_21}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_22}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_22}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_22}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_23}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_23}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_23}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_24}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_24}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_24}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_25}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_25}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_25}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_26}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_26}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_26}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_27}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_27}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_27}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_28}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_28}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_28}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_29}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_29}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_29}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_30}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_30}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_30}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_31}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_31}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_31}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_32}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_32}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_32}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_33}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_33}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_33}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_34}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_34}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_34}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_35}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_35}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_35}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_36}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_36}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_36}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_37}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_37}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_37}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_38}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_38}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_38}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_39}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_39}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_39}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_40}&quot;].prev()}&lt;1</expression>
+            <name>Expired cert on {$HOST_TO_SSL_CHECK_40}</name>
+            <url/>
+            <status>0</status>
+            <priority>5</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_40}  expired!</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_01}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_01}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_01}  expire after 2 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_02}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_02}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_02}  expire after 2 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_03}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_03}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_03}  expire after 2 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_04}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_04}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_04}  expire after 2 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_05}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_05}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_05}  expire after 2 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_06}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_06}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_06}  expire after 2 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_07}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_07}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_07}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_08}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_08}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_08}  expire after 2 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_09}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_09}</name>
+            <url/>
+            <status>1</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_09}  expire after 2 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_10}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_10}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_10}  expire after 2 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_11}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_11}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_11}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_12}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_12}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_12}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_13}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_13}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_13}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_14}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_14}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_14}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_15}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_15}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_15}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_16}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_16}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_16}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_17}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_17}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_17}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_18}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_18}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_18}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_19}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_19}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_19}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_20}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_20}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_20}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_21}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_21}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_21}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_22}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_22}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_22}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_23}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_23}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_23}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_24}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_24}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_24}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_25}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_25}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_25}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_26}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_26}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_26}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_27}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_27}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_27}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_28}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_28}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_28}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_29}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_29}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_29}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_30}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_30}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_30}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_31}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_31}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_31}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_32}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_32}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_32}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_33}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_33}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_33}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_34}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_34}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_34}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_35}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_35}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_35}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_36}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_36}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_36}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_37}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_37}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_37}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_38}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_38}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_38}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_39}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_39}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_39}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_40}&quot;].prev()}&lt;4</expression>
+            <name>Less than 3 days to renew cert on {$HOST_TO_SSL_CHECK_40}</name>
+            <url/>
+            <status>0</status>
+            <priority>4</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_40}  expire after 3 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_01}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_01}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_01}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_02}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_02}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_02}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_03}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_03}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_03}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_04}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_04}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_04}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_05}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_05}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_05}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_06}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_06}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_06}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_07}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_07}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_07}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_08}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_08}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_08}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_09}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_09}</name>
+            <url/>
+            <status>1</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_09}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_10}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_10}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_10}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_11}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_11}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_11}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_12}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_12}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_12}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_13}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_13}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_13}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_14}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_14}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_14}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_15}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_15}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_15}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_16}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_16}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_16}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_17}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_17}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_17}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_18}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_18}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_18}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_19}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_19}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_19}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_20}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_20}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_20}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_21}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_21}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_21}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_22}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_22}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_22}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_23}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_23}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_23}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_24}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_24}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_24}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_25}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_25}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_25}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_26}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_26}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_26}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_27}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_27}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_27}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_28}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_28}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_28}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_29}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_29}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_29}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_30}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_30}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_30}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_31}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_31}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_31}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_32}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_32}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_32}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_33}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_33}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_33}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_34}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_34}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_34}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_35}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_35}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_35}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_36}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_36}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_36}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_37}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_37}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_37}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_38}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_38}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_38}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_39}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_39}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_39}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_40}&quot;].prev()}=14</expression>
+            <name>Less than 14 days to renew cert on {$HOST_TO_SSL_CHECK_40}</name>
+            <url/>
+            <status>0</status>
+            <priority>3</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_40}  expire after 14 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_01}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_01}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_01}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_02}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_02}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_02}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_03}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_03}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_03}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_04}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_04}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_04}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_05}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_05}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_05}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_06}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_06}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_06}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_07}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_07}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_07}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_08}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_08}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_08}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_09}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_09}</name>
+            <url/>
+            <status>1</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_09}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_10}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_10}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_10}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_11}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_11}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_11}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_12}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_12}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_12}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_13}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_13}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_13}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_14}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_14}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_14}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_15}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_15}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_15}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_16}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_16}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_16}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_17}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_17}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_17}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_18}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_18}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_18}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_19}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_19}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_19}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_20}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_20}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_20}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_21}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_21}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_21}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_22}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_22}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_22}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_23}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_23}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_23}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_24}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_24}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_24}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_25}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_25}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_25}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_26}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_26}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_26}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_27}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_27}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_27}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_28}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_28}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_28}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_29}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_29}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_29}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_30}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_30}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_30}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_31}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_31}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_31}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_32}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_32}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_32}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_33}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_33}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_33}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_34}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_34}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_34}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_35}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_35}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_35}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_36}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_36}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_36}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_37}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_37}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_37}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_38}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_38}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_38}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_39}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_39}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_39}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+        <trigger>
+            <expression>{ssl_cert_exp_monitor:ssl_cert_exp_monitor.sh[&quot;{$HOST_TO_SSL_CHECK_40}&quot;].prev()}=28</expression>
+            <name>Less than 28 days to renew cert on {$HOST_TO_SSL_CHECK_40}</name>
+            <url/>
+            <status>0</status>
+            <priority>2</priority>
+            <description>Cert on  {$HOST_TO_SSL_CHECK_40}  expire after 30 days</description>
+            <type>0</type>
+            <dependencies/>
+        </trigger>
+    </triggers>
+</zabbix_export>
