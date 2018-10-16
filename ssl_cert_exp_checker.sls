@@ -9,7 +9,7 @@ openssl_install:
 
 ssl_cert_exp_monitor.sh:
   file.managed:
-    - name: /usr/local/share/zabbix/externalscripts/ssl_cert_exp_monitor.sh
+    - name: /etc/zabbix/externalscripts/ssl_cert_exp_monitor.sh
     - source: salt://{{ slspath }}/files/ssl_cert_exp_checker/ssl_cert_exp_monitor.sh
     - user: {{ zabbix.user }}
     - group: {{ zabbix.group }}
