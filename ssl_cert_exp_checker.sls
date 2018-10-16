@@ -1,7 +1,7 @@
 {% from "zabbix/ng/map.jinja" import zabbix with context %}
 
 include:
-  - zabbix.ng.agent.install
+  - zabbix.ng.server.install
 
 openssl_install:
   pkg.installed:
@@ -16,6 +16,6 @@ ssl_cert_exp_monitor.sh:
     - mode: 644
     - makedirs: True
     - watch_in:
-      - service: install_zabbix_agent    
+      - service: install_zabbix_server
 
 
